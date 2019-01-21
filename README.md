@@ -17,11 +17,9 @@ Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree!
 		jupyter notebook dog_app.ipynb
 	```
 
-__NOTE:__ While some code was already been implemented to get me started, I implemented additional functionality to demonstrate a Dog Breed classifier model. The model has two parts, one is develped from scratch and the other one using VGG16 pretrained model.
+__NOTE:__ While some code was already been implemented by Udacity team to get me started, I implemented additional functionality to demonstrate a Dog Breed classifier model. The model has two parts, one is develped from scratch and the other one using VGG16 pretrained model.
 
 __NOTE:__ PyTorch is used to train the CNNs.
-
-
 
 ## (Optionally) Accelerating the Training Process 
 
@@ -39,3 +37,4 @@ The project was reviewed by a Udacity reviewer against the CNN project rubric to
 6. The trained model developed from scrath attains at least 10% accuracy on the test set.
 7. The trained model developed from pretrained VGG16 model attains accuracy on the test set is 60% or greater.
 8. The model tests at least 6 images, including at least two human and two dog images.
+9. The html file includes the sample output captured on executing the model.
