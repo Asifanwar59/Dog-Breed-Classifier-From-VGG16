@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Welcome to the Convolutional Neural Networks (CNN) project in the Artificila Intelligence! This project aims at building a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Welcome to the Convolutional Neural Networks (CNN) project in the Artificial Intelligence! This project aims at building a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ## Project Instructions
 
@@ -10,7 +10,7 @@ Welcome to the Convolutional Neural Networks (CNN) project in the Artificila Int
 
 1. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
 2. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
-3. Make sure you have already installed the necessary Python packages used in the .pynb file. 
+3. Make sure you have already installed the necessary Python packages used in the dog_app.ipynb file. 
 4. Open the notebook and follow the instructions.
 	
 	```
