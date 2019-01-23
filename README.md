@@ -10,12 +10,20 @@ Welcome to the Convolutional Neural Networks (CNN) project in the Artificial Int
 
 1. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`.  The `dogImages/` folder should contain 133 folders, each corresponding to a different dog breed.
 2. Download the [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
-3. Make sure you have already installed the necessary Python packages used in the dog_app.ipynb file. 
+3. Make sure you have already installed the necessary Python packages used in the dog_app.ipynb file. refer section "Installations" below. 
 4. Open the notebook and follow the instructions.
 	
 	```
 		jupyter notebook dog_app.ipynb
 	```
+
+### Installations
+__NOTE__ Replace conda with you environment installtion commands
+
+`conda install os openCV matplotlib`
+`conda install numpy PIL`
+`conda install tqdm torch torchvision`
+
 
 __NOTE:__ While some code was already been implemented by Udacity team to get me started, I implemented additional functionality to demonstrate a Dog Breed classifier model. The model has two parts, one is develped from scratch and the other one using VGG16 pretrained model.
 
