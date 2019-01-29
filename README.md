@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Welcome to the Convolutional Neural Networks (CNN) project in the Artificial Intelligence! This project aims at building a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Welcome to the Convolutional Neural Networks (CNN) project in the Artificial Intelligence! This project aims at building a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed. The code is build using a pre-trained VGG16 network. 
 
 ## Project Instructions
 
@@ -33,16 +33,11 @@ __NOTE:__ PyTorch is used to train the CNNs.
 
 If the code is taking too long to run, you will need to switch to running your code on a GPU.  
 
-## Evaluation
-
-The project was reviewed by a Udacity reviewer against the CNN project rubric to meet the following criteria:
+## Project Specifications:
 
 1. The model returns the percentage of the first 100 images in the dog and human face datasets that include a detected, human face.
 2. Use a pre-trained VGG16 Net to find the predicted class for a given image. 
 3. The submission returns the percentage of the first 100 images in the dog and human face datasets that include a detected dog.
-4. The submission specifies a CNN architecture.
-5. Choose appropriate loss and optimization functions for this classification task. Train the model for a number of epochs and save the "best" result.
-6. The trained model developed from scrath attains at least 10% accuracy on the test set.
-7. The trained model developed from pretrained VGG16 model attains accuracy on the test set is 60% or greater.
-8. The model tests at least 6 images, including at least two human and two dog images.
-9. The html file includes the sample output captured on executing the model.
+4. Choose appropriate loss and optimization functions for this classification task. Train the model for a number of epochs and save the "best" result.
+5. The trained model developed from pretrained VGG16 model attains accuracy on the test set is 60% or greater.
+6. The model tests at least 6 images, including at least two human and two dog images.
